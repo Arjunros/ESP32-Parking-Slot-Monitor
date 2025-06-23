@@ -56,5 +56,31 @@ This project uses 10 IR sensors connected to an ESP32 board to detect parking sl
 
 ---
 
-## 📂 File Structure
+
+---
+
+## 🔌 Setup Instructions
+
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/Arjunros/ESP32-Parking-Slot-Monitor.git
+
+## Open in Arduino IDE
+
+- Open SmartParkingSystem.ino
+- Set board to ESP32 Dev Module
+-Update WiFi Credentials
+
+## Replace this part of the code:
+const char* ssid = "ARJUNA_BHAVAN";
+const char* password = "Arjunabhavan#";
+
+## Upload and Run
+- Upload the code to your ESP32
+- Open Serial Monitor (baud: 115200)
+- Note the IP address
+
+## Open Dashboard
+Enter the IP in your browser (e.g., http://192.168.1.37)
+
 
